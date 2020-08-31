@@ -1,0 +1,8 @@
+{
+    "EncryptionContext": {
+        "type": "password",
+        "application": "core",
+        "aws_service": "rds",
+        "usage": "postgres"
+    }
+}
