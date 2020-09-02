@@ -17,7 +17,7 @@ serviceAccount:
   nameTest:
 #  annotations:
 
-replicas: 1
+replicas: 3
 
 ## See `kubectl explain poddisruptionbudget.spec` for more
 ## ref: https://kubernetes.io/docs/tasks/run-application/configure-pdb/
