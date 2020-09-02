@@ -22,7 +22,7 @@ secret:
 		read USERNAME; \
 	echo "Postgres Password? (keys will not show up in the terminal): "; \
 		read -s PASSWORD; \
-	printf -- "Attempted to create secret 'grafana-db-connection'...\n"; \
+	printf -- "Attempting to create secret 'grafana-db-connection'...\n"; \
 	kubectl create secret generic --namespace grafana grafana-db-connection \
 		--from-literal=GF_DATABASE_USER=$$USERNAME \
 		--from-literal=GF_DATABASE_PASSWORD=$$PASSWORD \
