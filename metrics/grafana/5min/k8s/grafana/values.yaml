@@ -443,6 +443,9 @@ server:
   #   enabled: true
   #   allow_sign_up: true
   #   config_file: /etc/grafana/ldap.toml
+  auth.anonymous:
+    enabled: true
+
 
 ## Grafana's LDAP configuration
 ## Templated by the template in _helpers.tpl
